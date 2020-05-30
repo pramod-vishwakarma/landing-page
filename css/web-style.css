@@ -1,0 +1,540 @@
+html{
+    scroll-behavior: smooth;
+
+}
+body{
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 16px;
+}
+img{
+  border-radius: 4px;
+}
+a,ul,li{
+text-decoration: none !important;
+}
+#effects-img img{
+  z-index: 9999;
+  position: absolute;
+  width:90px;
+  height:90px;
+ /* box-shadow: 2px 2px #888888;*/
+}
+#effects{
+    text-decoration: none !important;
+    color: #333333 !important;
+}
+#effects:hover{
+    color: #ffa800 !important;
+}
+#effects1{
+    text-decoration: none !important;
+}
+#effects1:hover{
+    color: #ffa800 !important;
+}
+#grad1 {
+  background-image: linear-gradient(90deg,#222222,#222222);/*HEADER*/
+  height: 60px;
+  width: 100%;
+}
+#grad {
+  background-image: linear-gradient(0deg,#f55700,#f9f9f9);/*FOOTER*/
+  /*background-image: linear-gradient(0deg,#222222,#F7F7F7);*/
+}
+
+.navbar{
+box-shadow: 0px 0.5px #888;
+}
+.navbar-toggler{
+    background-color: #ffa73b;
+    border: #111111;
+    line-height: 0 !important;
+    overflow: hidden;
+}
+.form-control{
+    height: 2rem;
+    padding: .375rem .75rem;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+}
+.btn-outline-primary {
+    color: #ffffff;
+    background-image: linear-gradient(90deg,#FF9800,#ed453b);
+    border-color: #f57700;
+    height: 2.1rem;
+    /*width: 10rem;
+    font-size:12px;
+    border-radius: 2em;
+}
+.btn:hover{
+        background-color: #000000;
+        color:#ffffff;
+        border-color: #f0ad4e; 
+    }
+.banner-desc h1 {
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 3em;
+    margin-top: 17px;
+    line-height: 50px;
+    margin-left: 70px;
+    position: absolute;
+    top: 35px;
+    text-shadow: 0 2px 10px #000;
+}
+#howitworks{
+    color: #111111;
+    text-align: center;
+    margin-top:40px; 
+}
+h5{
+    text-align: center;
+    margin: 25px 0 30px;
+    font-size: 2em;
+    color: #666666;
+}
+.chap-no-text{
+    color: #111111;
+    text-align: center;
+    margin-top:10px; 
+}
+#about-us{
+  /*background-color: #cccccc;*/
+  background-image: url("images/img1.jpg") no-repeat;
+  display: block;
+}
+h2{
+ /* color: #888888;*/
+}
+p,a{
+  color: #f7f7f7;
+}
+.container-milehighstore{
+    padding: 3em 0;
+    position: relative;
+    color: #555555;
+}
+.container-milehighstore h2 {
+    text-align: left;
+    letter-spacing:.2px;
+    font-size: 3.0em;
+    margin: 0 10px 25px;
+    }
+.container-milehighstore {
+    padding: 3em 0;
+    position: relative;
+}
+
+.container-milehighstore p {
+    color: #f7f7f7;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 15px 0;
+    padding: 10px;
+    text-align: justify;
+}
+footer {
+    /* background: #111111; */
+    position: relative;
+    padding:4em 0;
+    color: #111111;
+}
+footer .nav li a:hover{
+    color:#ffa800;
+}
+
+.footer h4 {
+    color: #111111;
+    font-size: 1.8em
+}
+.copyright-footer p {
+    margin: 0;
+    /*padding-left: 15px;*/
+    text-align: center;
+    color: #ffffff;
+}
+.form-login h4 {
+    border: 0 solid #fff;
+    border-bottom-width: 1px;
+    text-align: center;
+    padding: 15px;
+    color: #333;
+    font-weight: 600;
+    font-size: 20px;
+    background: #fff;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.form-login {
+        background-color: #ededed;
+        border-radius: 10px;
+        border-color: #d2d2d2;
+        border-width: 5px;
+        box-shadow: 0 1px 0 #cfcfcf;
+        text-align: center;
+        width: 81%;
+        margin:0 auto;
+    }
+.form-login .form-control {
+    width: 90%;
+    border-radius: 3px;
+    display: inline-block;
+    height: 35px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+
+}
+.btn.btn-secondary{
+    margin-bottom: 15px !important;
+    color: #ffffff;
+    background-color: #f57700 !important;
+    border-color: #f57700 !important;
+    height: 2.1rem;
+    width: 9rem;
+    font-size:13px;
+}
+.btn.btn-secondary:hover{
+    background-color:#111111 !important;
+}
+.video-block{
+text-align: center;
+padding: 0;
+}
+.video-container{
+    margin:0 auto;
+}
+footer .social li {
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        margin-right: 15px;
+    }
+    /* our team  */
+    span{
+        font-size:15px;
+    }
+
+.text{
+ margin:20px 0px;
+ }
+.fa{
+ color: #333333;
+ }    
+#myBtn{
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color:#f55700; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding:10px 15px 10px 15px; /* Some padding */
+  border-radius: 10%; /* Rounded corners */
+  font-size: 16px; /* Increase font size */
+}
+#myBtn:hover{
+background-color: #ffa800; 
+}
+/*product craousel*/
+.blog .carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -40px;
+
+}
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+.carousel-indicators li{
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    /* margin-left: 3px; */
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-top:  transparent !important;
+    border-bottom: transparent !important; 
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+/*effect-box*/
+.effect-box {
+  position: relative;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.effect-box:hover .overlay {
+  opacity: 1;
+}
+/*craousel*/
+.btn.btn-secondary {
+  margin-bottom: 15px !important;
+  color: #ffffff;
+  background-image: linear-gradient(90deg,#FF9800,#ed453b);
+  height: 2rem;
+  width: 10rem;
+  font-size: 12px;
+  border-radius: 2em;
+  }
+    /* Make the image fully responsive */
+    .main-text-carousel
+      {
+      position: absolute;
+      top: 25%;
+      left: 12%;
+      width: 96.66666666666666%;
+      color: #111111;
+      }
+    .form-text-carousel
+      {
+      position: absolute;
+      top: 30%;
+      left: 60%;
+      width: 80.66666666666666%;
+      color: #FFF;
+      }
+
+    .sub-heading {
+      font-size: 16px;
+      margin-bottom: 0.5rem;
+      color: #333333;
+      text-align: justify-all;
+    }
+
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+    }
+    #carousel-img{
+     width: 100%; 
+     height: 500px!important;
+    }
+/*slidertext*/
+.sliderinnertext {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width
+  }
+  .block-title1{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 3.0em;
+    margin: 10px 10px 25px;
+    color:#555555;"
+  }
+  #block-title2{
+    text-align: center; 
+    color: #555555;
+    letter-spacing: 1.5px;
+    font-size: 3.0em;
+    margin: 10px;
+    }
+  #block-img{
+    padding:20px;
+  }
+  #block-content{
+    padding:8px 20px;
+  }
+  #block-content1{
+    padding:8px 20px;
+    color:#f7f7f7;
+  }
+  #blogCarousel{
+    text-align: center;
+  }
+#grpinput{
+  border-radius: 16px 0 0 16px !important;
+}
+.footer-h2{
+  color: #F7F7F7;
+}
+#txt{
+  padding: 10px;
+}
+#txtspan{
+  color: #ffffff; 
+  float: right;
+}
+#txtspan1{
+  display: none;
+}
+/*end*/
+
+@media screen and (max-width: 450px){
+  #effects-img img{
+  /*z-index: 9999;
+  position: absolute;*/
+  width:50px;
+  height:50px;
+ /* box-shadow: 2px 2px #888888;*/
+}
+#txtspan{
+  display: none;
+}
+#txtspan1{
+  color: #ffffff; 
+  float: right;
+  padding: 10px;
+  display: block;
+  padding: 10px;
+}
+
+  #blogCarousel{
+    display: none;
+  }
+  .form-text-carousel {
+   position: relative;
+   margin: 0 auto;
+    color: #FFF;
+    right: 0;
+    left: 0;
+}
+.form-login{
+  width: 100%;
+}
+.main-text-carousel {
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    width: 96.66666666666666%;
+    color: #111111;
+}
+.carousel-item .active img{
+  height:min-content;
+}
+.container-milehighstore h2{
+  font-size: 2rem;
+  margin:10px 10px;
+}
+.block-title1{
+    text-align: center;
+    letter-spacing: 0px;
+    font-size: 2em;
+    margin: 0 auto;
+    color:#555555;"
+  }
+#block-title2{
+    text-align: center; 
+    color: #555555;
+    letter-spacing: 0px;
+    font-size: 2.0em;
+    margin: 10px;
+    }
+ .container-milehighstore 
+ { 
+ padding:0; 
+}
+.form-login h4{
+  margin-top: 25px;
+  background-color: #ededed;
+}
+.footer{
+  padding-top:1em; 
+}
+#block-3{
+padding-top: 1em;
+}
+#block-img{
+    padding:14px;
+  }
+  #block-content{
+    padding:8px 20px;
+  }
+ #carousel-img{
+     width: 100%; 
+     height: 350px !important;
+  } 
+  h1{
+    font-size: 2rem;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+/*thank you page*/
+.content{
+  max-width: 650px;
+  margin: 100px auto;
+  background-color: #ffffff;
+  height: 400px;
+  -moz-box-shadow:0 12px 10px -6px #888888;
+   -webkit-box-shadow:0 12px 10px -6px #888888;
+   box-shadow: 0 12px 10px -6px #888888;
+   padding: 20px;
+}
+.content img{
+  width: 100px;
+  height: 100px;
+ }
+ .img-section{
+  margin: 0 auto;
+ }
+.content h1{
+  text-align: center;
+}
+.content h6{
+  text-align: center;
+  color: #888888;
+}
+.col .text-center{
+  margin: 20px auto;
+}
